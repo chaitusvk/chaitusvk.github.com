@@ -1,0 +1,12 @@
+---
+layout: default
+img: 1-1-1-pro.png
+category: Projects
+title: "Kaggle: <br> Restaurant Revenue Prediction"
+description: |
+---
+
+* **Optical Character recognition for Telugu language**
+
+
+* **Build** [OCR](https://github.com/chaitusvk/ocr_telugu) Telugu OCR based on CRNN. 

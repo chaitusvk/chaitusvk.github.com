@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/projects/1994/01/01/pro/</loc>
+<lastmod>1994-01-01T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/projects/1994/07/01/pro/</loc>
+<lastmod>1994-07-01T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/rsc/about_star_war/</loc>
+<lastmod>2018-04-22T12:28:11+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/rsc/resume.pdf</loc>
+<lastmod>2018-04-22T12:28:11+05:30</lastmod>
+</url>
+</urlset>

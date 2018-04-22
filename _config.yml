@@ -1,1 +1,33 @@
-theme: jekyll-theme-cayman
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://www.wesleyq.me/
+title: Chaitanya SVK
+email: chaitanya.srikanta@gmail.com
+author: Chaitanya
+description: > # "Chaitanya's Personal Page"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+# Build sitemap
+gems:
+  - jekyll-sitemap
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - icon: envelope-o
+    title: email
+    url: mailto:chaitanya.srikanta@gmail.com
+  - icon: github
+    title: github
+    url: https://github.com/chaitusvk
+ 
