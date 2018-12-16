@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+# JBlog Jekyll Theme
 
-You can use the [editor on GitHub](https://github.com/chaitusvk/chaitusvk.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**[JBlog](http://alperenbozkurt.net/JBlog)** is a simple jekyll theme.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have used this theme in my own php and ruby blogs. And there are some shortcomings. If something looks extremely ugly and you can't resist to fix it, just send me a PR. I will be grateful.
 
-### Markdown
+If you like this theme or using it, please give a **star** for motivation.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Preview
 
-```markdown
-Syntax highlighted code block
+![Home Page](/assets/img/screenshot-home.png)    
+![Post Page](/assets/img/screenshot-post.png)
 
-# Header 1
-## Header 2
-### Header 3
+See a [live version of JBlog](http://alperenbozkurt.net/JBlog) hosted on GitHub.
 
-- Bulleted
-- List
+## Getting Started
 
-1. Numbered
-2. List
+To learn how to install and use this theme check out the [Setup Guide](http://alperenbozkurt.net/JBlog/JBlog-theme/) for more information or apply the following instructions.
 
-**Bold** and _Italic_ and `Code` text
+## Installation
 
-[Link](url) and ![Image](src)
+- Fork the Repo
+- Edit _config.yml file.
+	- Edit url as **https**://yourusername.github.io
+	- and others
+- Remove sample posts from _posts folder and add yours.
+- Edit index.md file in about folder.
+- Change repo name to YourUserName.github.io
+- Open "Github Pages" from settings page
+- Click the star icon at the top of this page ;)
+
+
+## How to customization
+
+- You can change title, description, profile image and social network icons in _config.yml file.
+- If you are not like this colors or fonts, you can change its in _sass/variables.scss file.
+```scss
+$title-font   : Lobster, cursive;
+$menu-font    : Alegreya Sans SC, sans-serif;
+$main-font    : Roboto Slab, serif;
+```
+You can add your fonts this area.
+```scss
+// Colors
+$blue: #3498db;
+$orange: #e67e22;
+$red: #e74c3c;
+$white: #ecf0f1;
+$green: #2ecc71;
+$turko: #1abc9c;
+$purple: #9b59b6;
+$dark-blue: #34495e;
+
+$main-color: $white;
+$background-color: $blue;
+$thrid-color: rgba(52, 152, 219, 0.8);
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chaitusvk/chaitusvk.github.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+$main-color is panels background color.
+$background-color is background, buttons, links color.
+$thrid-color is opacity version of background color.
